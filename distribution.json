@@ -1,12 +1,12 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "servers": [
     {
       "id": "HeliosVanilla-1.20.4",
       "name": "KKMK 서버",
       "description": "Minecraft 1.20.4 · Fabric 0.19.3 · 클라이언트 자동 설치",
       "icon": "https://raw.githubusercontent.com/taeyang6658/HeliosVanilla-distro/main/serverIMG.png",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "address": "kkmk.kro.kr",
       "minecraftVersion": "1.20.4",
       "mainServer": true,
@@ -1596,17 +1596,6 @@
             "MD5": "875fcfd96f8371c6e3a0fcd7fca994df",
             "url": "https://raw.githubusercontent.com/taeyang6658/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/Stronghold.theme2.json",
             "path": "journeymap/icon/theme/flat/Stronghold.theme2.json"
-          }
-        },
-        {
-          "id": "heliosvanilla.file.edc81a17eb9eeb98",
-          "name": "options.txt",
-          "type": "File",
-          "artifact": {
-            "size": 5350,
-            "MD5": "6de879e767848d34fe161052f8e612dd",
-            "url": "https://raw.githubusercontent.com/taeyang6658/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/options.txt",
-            "path": "options.txt"
           }
         },
         {
