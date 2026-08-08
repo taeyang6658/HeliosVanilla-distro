@@ -1,12 +1,12 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "servers": [
     {
       "id": "HeliosVanilla-1.20.4",
-      "name": "헬리오스 바닐라",
+      "name": "KKMK 서버",
       "description": "Minecraft 1.20.4 · Fabric 0.19.3 · 클라이언트 자동 설치",
       "icon": "https://raw.githubusercontent.com/taeyang6658/HeliosVanilla-distro/main/serverIMG.png",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "address": "kkmk.kro.kr",
       "minecraftVersion": "1.20.4",
       "mainServer": true,
@@ -1665,8 +1665,8 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 69,
-            "MD5": "1252b7dbc7380a6153bfdcd1aa1b7a14",
+            "size": 58,
+            "MD5": "fb10bc10eede92b046fd9f7de0e77b32",
             "url": "https://raw.githubusercontent.com/taeyang6658/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/servers.dat",
             "path": "servers.dat"
           }

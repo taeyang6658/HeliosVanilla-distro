@@ -1,6 +1,6 @@
-# 헬리오스 바닐라 배포 파일
+# KKMK 서버 배포 파일
 
-`헬리오스 바닐라` Helios Launcher가 사용하는 Minecraft 1.20.4 Fabric 배포 저장소입니다.
+`KKMK 서버` Helios Launcher가 사용하는 Minecraft 1.20.4 Fabric 배포 저장소입니다.
 
 - 서버 주소: `kkmk.kro.kr:25565`
 - Fabric Loader: `0.19.3`
