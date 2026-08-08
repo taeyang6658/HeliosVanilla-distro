@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "name": "헬리오스 바닐라",
     "description": "Minecraft 1.20.4 (Fabric 0.19.3)",
-    "icon": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/serverIMG.png",
+    "icon": "https://raw.githubusercontent.com/taeyang6658/HeliosVanilla-distro/main/serverIMG.png",
     "address": "kkmk.kro.kr",
     "mainServer": true,
     "autoconnect": true
