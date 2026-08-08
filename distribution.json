@@ -1,12 +1,12 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "servers": [
     {
       "id": "HeliosVanilla-1.20.4",
       "name": "KKMK 서버",
       "description": "Minecraft 1.20.4 · Fabric 0.19.3 · 클라이언트 자동 설치",
       "icon": "https://raw.githubusercontent.com/taeyang6658/HeliosVanilla-distro/main/serverIMG.png",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "address": "kkmk.kro.kr",
       "minecraftVersion": "1.20.4",
       "mainServer": true,
@@ -112,16 +112,6 @@
             "size": 35838,
             "MD5": "394071b453fac847a219a911c3cb9367",
             "url": "https://raw.githubusercontent.com/taeyang6658/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/accurate-block-placement-1.2.1.jar"
-          }
-        },
-        {
-          "id": "generated.fabricmod:advanced-xray-fabric:84.0.0@jar",
-          "name": "Advanced XRay (Fabric)",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 150917,
-            "MD5": "cc6554e4181eab27ff2995bd52c8d491",
-            "url": "https://raw.githubusercontent.com/taeyang6658/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/advanced-xray-fabric-84.0.0.jar"
           }
         },
         {
@@ -305,36 +295,6 @@
           }
         },
         {
-          "id": "generated.fabricmod:litematica:0.17.0@jar",
-          "name": "Litematica",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 918649,
-            "MD5": "1b31217564427ce561c6ca77fdfa3466",
-            "url": "https://raw.githubusercontent.com/taeyang6658/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/litematica-fabric-1.20.4-0.17.0.jar"
-          }
-        },
-        {
-          "id": "generated.fabricmod:litematica_printer:3.2@jar",
-          "name": "Litematica Printer",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 81679,
-            "MD5": "68a58c98573faf68504d6a36b2194e0d",
-            "url": "https://raw.githubusercontent.com/taeyang6658/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/Litematica-Printer-Mod-Fabric-1.20.4.jar"
-          }
-        },
-        {
-          "id": "generated.fabricmod:malilib:0.18.0@jar",
-          "name": "MaLiLib",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 746242,
-            "MD5": "5db8fbcf75e3eb2b81e67aed577ab579",
-            "url": "https://raw.githubusercontent.com/taeyang6658/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/malilib-fabric-1.20.4-0.18.0.jar"
-          }
-        },
-        {
           "id": "generated.fabricmod:notenoughanimations:1.7.4@jar",
           "name": "NotEnoughAnimations",
           "type": "FabricMod",
@@ -382,17 +342,6 @@
             "size": 8132399,
             "MD5": "ff6eefd2733b57a2f87e798a92872389",
             "url": "https://raw.githubusercontent.com/taeyang6658/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/voicechat-fabric-1.20.4-2.5.19.jar"
-          }
-        },
-        {
-          "id": "heliosvanilla.file.5fbbff9e1d36b4c0",
-          "name": "config/advanced-xray-fabric/settings.json",
-          "type": "File",
-          "artifact": {
-            "size": 60,
-            "MD5": "51891b483eff3a4d4e0b95914d77cc09",
-            "url": "https://raw.githubusercontent.com/taeyang6658/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/config/advanced-xray-fabric/settings.json",
-            "path": "config/advanced-xray-fabric/settings.json"
           }
         },
         {
