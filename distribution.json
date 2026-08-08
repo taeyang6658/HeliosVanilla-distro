@@ -1,0 +1,1688 @@
+{
+  "version": "1.0.0",
+  "servers": [
+    {
+      "id": "HeliosVanilla-1.20.4",
+      "name": "헬리오스 바닐라",
+      "description": "Minecraft 1.20.4 · Fabric 0.19.3 · 클라이언트 자동 설치",
+      "icon": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/serverIMG.png",
+      "version": "1.0.0",
+      "address": "kkmk.kro.kr",
+      "minecraftVersion": "1.20.4",
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.19.3",
+          "name": "Fabric Loader",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1976502,
+            "MD5": "881e0e9f53a11b9ad468b47afd678bfd",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/repo/lib/net/fabricmc/fabric-loader/0.19.3/fabric-loader-0.19.3.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.4-fabric-0.19.3",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2862,
+                "MD5": "b52f6b7d9f420411897188718e07560c",
+                "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/repo/versions/1.20.4-fabric-0.19.3/1.20.4-fabric-0.19.3.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.10.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126151,
+                "MD5": "9cb72080438acf27f2607002e1444a7b",
+                "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/repo/lib/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.10.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35140,
+                "MD5": "6dd9011ec87f65e4b2e14e938c4118e4",
+                "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/repo/lib/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.10.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74840,
+                "MD5": "8eee0b1bdd046baf472eb83dd5e6bb44",
+                "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/repo/lib/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.10.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51958,
+                "MD5": "62541e1dc62331408ef31317555bf4fa",
+                "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/repo/lib/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.10.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 95628,
+                "MD5": "d0892ecb209867805e7d2418e5dc6c42",
+                "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/repo/lib/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.3+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1540060,
+                "MD5": "87002a5fc9faa1543bf4204f8d5876fb",
+                "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/repo/lib/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 608319,
+                "MD5": "3a1cade1634c518db6147c9771686ea9",
+                "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/repo/lib/net/fabricmc/intermediary/1.20.4/intermediary-1.20.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "generated.fabricmod:accurateblockplacement:1.2.1@jar",
+          "name": "Accurate Block Placement",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 35838,
+            "MD5": "394071b453fac847a219a911c3cb9367",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/accurate-block-placement-1.2.1.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:advanced-xray-fabric:84.0.0@jar",
+          "name": "Advanced XRay (Fabric)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 150917,
+            "MD5": "cc6554e4181eab27ff2995bd52c8d491",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/advanced-xray-fabric-84.0.0.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:appleskin:2.5.1+mc1.20.3@jar",
+          "name": "AppleSkin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1077002,
+            "MD5": "60e559dd89ef9104af41449158634162",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/appleskin-fabric-mc1.20.3-2.5.1.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:betterf3:9.0.2@jar",
+          "name": "BetterF3",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1776259,
+            "MD5": "24fa26b55c158717323b0cb1abe58232",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/BetterF3-9.0.2-Fabric-1.20.4.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:blur:3.2.0@jar",
+          "name": "Blur (Fabric)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 155092,
+            "MD5": "72dfc9ed13eab2bf1c83ec1e4aa68858",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/blur-3.2.0.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:bridgingmod:2.4.0+1.20.4@jar",
+          "name": "Bridging Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 60805,
+            "MD5": "36af143b1505d4c4197ed238abbb58b4",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/BridgingMod-2.4.0+1.20.4.fabric-release.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:chat_heads:0.13.1@jar",
+          "name": "Chat Heads",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 71706,
+            "MD5": "6f89798dd9f306a2efaa12d6cba25787",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/chat_heads-0.13.1-fabric-1.20.4.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:continuity:3.0.0-beta.5+1.20.2@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1009401,
+            "MD5": "2b62a19992d9e8cbbe6f2830074cfee3",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/continuity-3.0.0-beta.5+1.20.2.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:entity_model_features:2.2.6@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 430490,
+            "MD5": "bf6264415d85ba369ae79ae5f012db95",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/entity_model_features_fabric_1.20.4-2.2.6.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:entity_texture_features:6.2.5@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 638302,
+            "MD5": "d94ee66edea3ecb492b8d41ea3cecc93",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/entity_texture_features_fabric_1.20.4-6.2.5.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.97.2+1.20.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2187410,
+            "MD5": "2733c159c2f7628983a96b442ca3f823",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/fabric-api-0.97.2+1.20.4.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.10.16+kotlin.1.9.21@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6728096,
+            "MD5": "468854c52847d8c3f2117cb08e14a9ac",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/fabric-language-kotlin-1.10.16+kotlin.1.9.21.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fallingleaves:1.15.6@jar",
+          "name": "Falling Leaves",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 156773,
+            "MD5": "1d13a592b3c329e2bc10b658161e8429",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/fallingleaves-1.15.6+1.20.1.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:indium:1.0.31+mc1.20.4@jar",
+          "name": "Indium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 105350,
+            "MD5": "86d20afc613763546f51452ef893be82",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/indium-1.0.31+mc1.20.4.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:inventoryprofilesnext:1.10.10@jar",
+          "name": "Inventory Profiles Next",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1458075,
+            "MD5": "9af0f8bc995c710cb7132f0b26343091",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/InventoryProfilesNext-fabric-1.20.3-1.10.10.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.2+mc1.20.4@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2703697,
+            "MD5": "fa3647d1891a719b268c636236d989c2",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/iris-1.7.2+mc1.20.4.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:journeymap:5.10.0@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7209750,
+            "MD5": "51fd7c0a120638305365e6431bcbf602",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/journeymap-1.20.4-5.10.0-fabric.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:koreanpatch:1.3.5-1.20.4@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 36420,
+            "MD5": "47e5018c2f6702d67122ae464242461c",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/koreanpatch-1.3.5-1.20.4.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:lambdynlights:2.3.4+1.20.4@jar",
+          "name": "LambDynamicLights",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 568669,
+            "MD5": "3c849e6337ff7c850762c6cc27f607ab",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/lambdynamiclights-2.3.4+1.20.4.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:libipn:4.0.2@jar",
+          "name": "libIPN",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 703031,
+            "MD5": "c12d98447b5c3a5caba5df97a9c71168",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/libIPN-fabric-1.20.3-4.0.2.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:litematica:0.17.0@jar",
+          "name": "Litematica",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 918649,
+            "MD5": "1b31217564427ce561c6ca77fdfa3466",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/litematica-fabric-1.20.4-0.17.0.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:litematica_printer:3.2@jar",
+          "name": "Litematica Printer",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 81679,
+            "MD5": "68a58c98573faf68504d6a36b2194e0d",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/Litematica-Printer-Mod-Fabric-1.20.4.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:malilib:0.18.0@jar",
+          "name": "MaLiLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 746242,
+            "MD5": "5db8fbcf75e3eb2b81e67aed577ab579",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/malilib-fabric-1.20.4-0.18.0.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:notenoughanimations:1.7.4@jar",
+          "name": "NotEnoughAnimations",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 423906,
+            "MD5": "f7e4960f1d8258ace35fb81a7f45cc11",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/notenoughanimations-fabric-1.7.4-mc1.20.4.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:shulkerboxtooltip:4.1.0+1.20.4@jar",
+          "name": "Shulker Box Tooltip",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1225846,
+            "MD5": "949844eb69788cc29ac62ef1cbadbae3",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/shulkerboxtooltip-fabric-4.1.0+1.20.4.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:skinlayers3d:1.6.6@jar",
+          "name": "3d-Skin-Layers",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 472639,
+            "MD5": "f573a794ff4b92edc424d81cb105e88b",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/skinlayers3d-fabric-1.6.6-mc1.20.4.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:sodium:0.5.8+mc1.20.4@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 949085,
+            "MD5": "d7753a50ca37f50abb10465a9a425dac",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/sodium-fabric-0.5.8+mc1.20.4.jar"
+          }
+        },
+        {
+          "id": "generated.fabricmod:voicechat:1.20.4-2.5.19@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 8132399,
+            "MD5": "ff6eefd2733b57a2f87e798a92872389",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/fabricmods/required/voicechat-fabric-1.20.4-2.5.19.jar"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.5fbbff9e1d36b4c0",
+          "name": "config/advanced-xray-fabric/settings.json",
+          "type": "File",
+          "artifact": {
+            "size": 60,
+            "MD5": "51891b483eff3a4d4e0b95914d77cc09",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/config/advanced-xray-fabric/settings.json",
+            "path": "config/advanced-xray-fabric/settings.json"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.f7b1068af0b99513",
+          "name": "config/appleskin.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1327,
+            "MD5": "406b4584562fb60304a8adc824de0000",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/config/appleskin.json5",
+            "path": "config/appleskin.json5"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.576bab07a9e4a5e4",
+          "name": "config/blur.json",
+          "type": "File",
+          "artifact": {
+            "size": 697,
+            "MD5": "6f0063acd055223fff02e5d7f358ae78",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/config/blur.json",
+            "path": "config/blur.json"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.e54b31acde035ca7",
+          "name": "config/bridgingmod.json",
+          "type": "File",
+          "artifact": {
+            "size": 516,
+            "MD5": "e747622bb517249a36a809e9d4505ac7",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/config/bridgingmod.json",
+            "path": "config/bridgingmod.json"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.3a3c5ff0011f01bf",
+          "name": "config/chat_heads.json5",
+          "type": "File",
+          "artifact": {
+            "size": 186,
+            "MD5": "bb9ec2f6f04d4905eb0501d30ce13923",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/config/chat_heads.json5",
+            "path": "config/chat_heads.json5"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.2ddd2f74888721bc",
+          "name": "config/entity_model_features.json",
+          "type": "File",
+          "artifact": {
+            "size": 982,
+            "MD5": "3928ea211a8cdf07556b59bfe499ba67",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/config/entity_model_features.json",
+            "path": "config/entity_model_features.json"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.09e4033f3fa06fa3",
+          "name": "config/entity_texture_features.json",
+          "type": "File",
+          "artifact": {
+            "size": 1362,
+            "MD5": "3f702f49ba7c276bcb1bc083bffee4a5",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/config/entity_texture_features.json",
+            "path": "config/entity_texture_features.json"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.0759761f19837fc4",
+          "name": "config/etf_warnings.json",
+          "type": "File",
+          "artifact": {
+            "size": 28,
+            "MD5": "b49b5603d2df29fa132f89ec91974572",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/config/etf_warnings.json",
+            "path": "config/etf_warnings.json"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.1fb0c0b566744147",
+          "name": "config/fabric/indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 290,
+            "MD5": "c72ad2c00789cd40de5097b9c06efc4f",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/config/fabric/indigo-renderer.properties",
+            "path": "config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.208cf8381271258b",
+          "name": "config/fallingleaves.json",
+          "type": "File",
+          "artifact": {
+            "size": 601,
+            "MD5": "bd5752ca1c1c4428964d1d5f7b145192",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/config/fallingleaves.json",
+            "path": "config/fallingleaves.json"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.4138d47db962dd74",
+          "name": "config/indium-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 115,
+            "MD5": "09ec0379a76f092b7c3df07a138535eb",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/config/indium-renderer.properties",
+            "path": "config/indium-renderer.properties"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.2bd98d02e030e2fd",
+          "name": "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json",
+          "type": "File",
+          "artifact": {
+            "size": 1450,
+            "MD5": "1a018549a3d0f945870f75056ce7e5eb",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json",
+            "path": "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.5447dd4056172af9",
+          "name": "config/inventoryprofilesnext/inventoryprofiles.json",
+          "type": "File",
+          "artifact": {
+            "size": 57,
+            "MD5": "ded1b91df09ec5b73e628db72a184fa5",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/config/inventoryprofilesnext/inventoryprofiles.json",
+            "path": "config/inventoryprofilesnext/inventoryprofiles.json"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.4657e9f52d62784b",
+          "name": "config/inventoryprofilesnext/kkmk.kro.kr/villager-trading-config.json",
+          "type": "File",
+          "artifact": {
+            "size": 1582,
+            "MD5": "a9de145dfedbe379ada72b5beaf621f7",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/config/inventoryprofilesnext/kkmk.kro.kr/villager-trading-config.json",
+            "path": "config/inventoryprofilesnext/kkmk.kro.kr/villager-trading-config.json"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.6573d622165d4f0f",
+          "name": "config/iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 269,
+            "MD5": "702f3605849a4c9e801336ccf17cc91e",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/config/iris.properties",
+            "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.aea862f50e394c42",
+          "name": "config/lambdynlights.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1138,
+            "MD5": "d24e7ad97e1e9631ea7678a3adc84d03",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/config/lambdynlights.toml",
+            "path": "config/lambdynlights.toml"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.a1952e925d46ddd8",
+          "name": "config/midnightlib.json",
+          "type": "File",
+          "artifact": {
+            "size": 34,
+            "MD5": "96bc8c4809d1b71f3fb24d7b83aaa56e",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/config/midnightlib.json",
+            "path": "config/midnightlib.json"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.dc0e5bb9b6d0d5f1",
+          "name": "config/notenoughanimations.json",
+          "type": "File",
+          "artifact": {
+            "size": 1388,
+            "MD5": "9bf58d85817e6b1ce7e9506f1d80a525",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/config/notenoughanimations.json",
+            "path": "config/notenoughanimations.json"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.360a73df58aaed30",
+          "name": "config/skinlayers.json",
+          "type": "File",
+          "artifact": {
+            "size": 400,
+            "MD5": "09908db1b9061e7783cc2372c6c14939",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/config/skinlayers.json",
+            "path": "config/skinlayers.json"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.bd18bccc498ec622",
+          "name": "config/sodium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "MD5": "0e715fdc42a6284cc6b52bd7bbc684b1",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/config/sodium-fingerprint.json",
+            "path": "config/sodium-fingerprint.json"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.0dffda40dc062719",
+          "name": "config/sodium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 265,
+            "MD5": "456d99888369486f42d6ea7f70294170",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/config/sodium-mixins.properties",
+            "path": "config/sodium-mixins.properties"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.797acb23bdbfb22b",
+          "name": "config/sodium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 632,
+            "MD5": "0526655acb6938560728d66ecb98fc90",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/config/sodium-options.json",
+            "path": "config/sodium-options.json"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.435d1b65df90edfe",
+          "name": "config/voicechat/translations.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1133,
+            "MD5": "3847ec6998814d22e66360d37201fcc9",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/config/voicechat/translations.properties",
+            "path": "config/voicechat/translations.properties"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.5f6064e6dd69fd61",
+          "name": "config/voicechat/voicechat-client.properties",
+          "type": "File",
+          "artifact": {
+            "size": 3810,
+            "MD5": "c883f2dc3f902f4d0c02832c82eece6c",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/config/voicechat/voicechat-client.properties",
+            "path": "config/voicechat/voicechat-client.properties"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.b11dce0cf920b53e",
+          "name": "config/voicechat/voicechat-volumes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 37,
+            "MD5": "fcb38654c898989fdf9b82707c3ee2f5",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/config/voicechat/voicechat-volumes.properties",
+            "path": "config/voicechat/voicechat-volumes.properties"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.fec134e9e01ee71b",
+          "name": "journeymap/colorpalette.html",
+          "type": "File",
+          "artifact": {
+            "size": 4503,
+            "MD5": "216a02fa4f41dab9096eaabc9eb1eecc",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/colorpalette.html",
+            "path": "journeymap/colorpalette.html"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.36a580f4937b7d43",
+          "name": "journeymap/colorpalette.json",
+          "type": "File",
+          "artifact": {
+            "size": 199883,
+            "MD5": "95c255b3eae036ac57c076c43da1ebbb",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/colorpalette.json",
+            "path": "journeymap/colorpalette.json"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.d0021a4c1910c2b0",
+          "name": "journeymap/config/5.10/journeymap.core.config",
+          "type": "File",
+          "artifact": {
+            "size": 1871,
+            "MD5": "494bdf4ab8e9523a9a5268f241fb9ce0",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/config/5.10/journeymap.core.config",
+            "path": "journeymap/config/5.10/journeymap.core.config"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.f2d326c7e88ad9af",
+          "name": "journeymap/config/5.10/journeymap.fullmap.config",
+          "type": "File",
+          "artifact": {
+            "size": 869,
+            "MD5": "dfd00e2405b4bc4ad77d94faffb49134",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/config/5.10/journeymap.fullmap.config",
+            "path": "journeymap/config/5.10/journeymap.fullmap.config"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.14d160731d67be2d",
+          "name": "journeymap/config/5.10/journeymap.minimap.config",
+          "type": "File",
+          "artifact": {
+            "size": 1664,
+            "MD5": "43496284aed0449569d864cf402fa189",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/config/5.10/journeymap.minimap.config",
+            "path": "journeymap/config/5.10/journeymap.minimap.config"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.efe8fe9a1730e1c6",
+          "name": "journeymap/config/5.10/journeymap.minimap2.config",
+          "type": "File",
+          "artifact": {
+            "size": 1664,
+            "MD5": "a55b3b5e19cd1a19a4ef4979ddde3086",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/config/5.10/journeymap.minimap2.config",
+            "path": "journeymap/config/5.10/journeymap.minimap2.config"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.5c2a787d73859cbf",
+          "name": "journeymap/config/5.10/journeymap.topo.config",
+          "type": "File",
+          "artifact": {
+            "size": 964,
+            "MD5": "d6fd0b74c996f515f3645d68fed8e5df",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/config/5.10/journeymap.topo.config",
+            "path": "journeymap/config/5.10/journeymap.topo.config"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.e98fc3857ceb790e",
+          "name": "journeymap/config/5.10/journeymap.waypoint.config",
+          "type": "File",
+          "artifact": {
+            "size": 896,
+            "MD5": "80440c4ed85631e9fbb8c855c93fb70c",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/config/5.10/journeymap.waypoint.config",
+            "path": "journeymap/config/5.10/journeymap.waypoint.config"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.0503e71967cd43c5",
+          "name": "journeymap/config/5.10/journeymap.webmap.config",
+          "type": "File",
+          "artifact": {
+            "size": 155,
+            "MD5": "2b15c0a6e6adfb00ef20f66d77727698",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/config/5.10/journeymap.webmap.config",
+            "path": "journeymap/config/5.10/journeymap.webmap.config"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.9ff48ba9e5006f7f",
+          "name": "journeymap/icon/theme/default.theme.config",
+          "type": "File",
+          "artifact": {
+            "size": 83,
+            "MD5": "9a651dda4758f8a349cc4017f2d60da6",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/default.theme.config",
+            "path": "journeymap/icon/theme/default.theme.config"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.f9fb41544e1311e7",
+          "name": "journeymap/icon/theme/flat/container/htoolbar_begin.png",
+          "type": "File",
+          "artifact": {
+            "size": 148,
+            "MD5": "cfab66d0a13d5b7f359fabc1d9a19437",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/container/htoolbar_begin.png",
+            "path": "journeymap/icon/theme/flat/container/htoolbar_begin.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.1c626d72b4ebf3ba",
+          "name": "journeymap/icon/theme/flat/container/htoolbar_end.png",
+          "type": "File",
+          "artifact": {
+            "size": 148,
+            "MD5": "cfab66d0a13d5b7f359fabc1d9a19437",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/container/htoolbar_end.png",
+            "path": "journeymap/icon/theme/flat/container/htoolbar_end.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.1cd2f2d5b132fa3f",
+          "name": "journeymap/icon/theme/flat/container/htoolbar_inner.png",
+          "type": "File",
+          "artifact": {
+            "size": 199,
+            "MD5": "569e70e6e0c65135a9b6b6815b84b972",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/container/htoolbar_inner.png",
+            "path": "journeymap/icon/theme/flat/container/htoolbar_inner.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.d48daa57171e40d7",
+          "name": "journeymap/icon/theme/flat/container/vtoolbar_begin.png",
+          "type": "File",
+          "artifact": {
+            "size": 145,
+            "MD5": "82b8b457e484046e479974e26ac2fa41",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/container/vtoolbar_begin.png",
+            "path": "journeymap/icon/theme/flat/container/vtoolbar_begin.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.56941c7f1fa2c1ae",
+          "name": "journeymap/icon/theme/flat/container/vtoolbar_end.png",
+          "type": "File",
+          "artifact": {
+            "size": 145,
+            "MD5": "82b8b457e484046e479974e26ac2fa41",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/container/vtoolbar_end.png",
+            "path": "journeymap/icon/theme/flat/container/vtoolbar_end.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.e5b5c4a2e6edf6fd",
+          "name": "journeymap/icon/theme/flat/container/vtoolbar_inner.png",
+          "type": "File",
+          "artifact": {
+            "size": 199,
+            "MD5": "569e70e6e0c65135a9b6b6815b84b972",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/container/vtoolbar_inner.png",
+            "path": "journeymap/icon/theme/flat/container/vtoolbar_inner.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.dc73bd00d99091f0",
+          "name": "journeymap/icon/theme/flat/control/flat_button_disabled.png",
+          "type": "File",
+          "artifact": {
+            "size": 399,
+            "MD5": "c3b4c14895831b27deb5b0880a71fe73",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/control/flat_button_disabled.png",
+            "path": "journeymap/icon/theme/flat/control/flat_button_disabled.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.f89ae9fba1a4252f",
+          "name": "journeymap/icon/theme/flat/control/flat_button_hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 399,
+            "MD5": "c3b4c14895831b27deb5b0880a71fe73",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/control/flat_button_hover.png",
+            "path": "journeymap/icon/theme/flat/control/flat_button_hover.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.4c734406153657a7",
+          "name": "journeymap/icon/theme/flat/control/flat_button_off.png",
+          "type": "File",
+          "artifact": {
+            "size": 399,
+            "MD5": "c3b4c14895831b27deb5b0880a71fe73",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/control/flat_button_off.png",
+            "path": "journeymap/icon/theme/flat/control/flat_button_off.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.82b98d87599e40f9",
+          "name": "journeymap/icon/theme/flat/control/flat_button_on.png",
+          "type": "File",
+          "artifact": {
+            "size": 399,
+            "MD5": "c3b4c14895831b27deb5b0880a71fe73",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/control/flat_button_on.png",
+            "path": "journeymap/icon/theme/flat/control/flat_button_on.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.e03aa14e182398d3",
+          "name": "journeymap/icon/theme/flat/control/flat_toggle_disabled.png",
+          "type": "File",
+          "artifact": {
+            "size": 667,
+            "MD5": "791d87e69e610e569353544f3687d3d0",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/control/flat_toggle_disabled.png",
+            "path": "journeymap/icon/theme/flat/control/flat_toggle_disabled.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.d10ebba88ef3f33c",
+          "name": "journeymap/icon/theme/flat/control/flat_toggle_hover.png",
+          "type": "File",
+          "artifact": {
+            "size": 611,
+            "MD5": "f746c00ea1178ba9768a024dd79972ec",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/control/flat_toggle_hover.png",
+            "path": "journeymap/icon/theme/flat/control/flat_toggle_hover.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.d04244f8bbb18631",
+          "name": "journeymap/icon/theme/flat/control/flat_toggle_off.png",
+          "type": "File",
+          "artifact": {
+            "size": 667,
+            "MD5": "791d87e69e610e569353544f3687d3d0",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/control/flat_toggle_off.png",
+            "path": "journeymap/icon/theme/flat/control/flat_toggle_off.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.670fb6b73338a8b1",
+          "name": "journeymap/icon/theme/flat/control/flat_toggle_on.png",
+          "type": "File",
+          "artifact": {
+            "size": 611,
+            "MD5": "32333489c3af7acb084fc7d2e1d6b835",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/control/flat_toggle_on.png",
+            "path": "journeymap/icon/theme/flat/control/flat_toggle_on.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.af6a95a4c47981c2",
+          "name": "journeymap/icon/theme/flat/DesertTemple.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8925,
+            "MD5": "ef97d6d4a3c3a745a5a819f81617a3a4",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/DesertTemple.theme2.json",
+            "path": "journeymap/icon/theme/flat/DesertTemple.theme2.json"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.1a09bf1519c43865",
+          "name": "journeymap/icon/theme/flat/EndCity.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8920,
+            "MD5": "8bd570528afe51dad02dcd97eaa16098",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/EndCity.theme2.json",
+            "path": "journeymap/icon/theme/flat/EndCity.theme2.json"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.e583c932e7b5160b",
+          "name": "journeymap/icon/theme/flat/ForestMansion.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8926,
+            "MD5": "c0fb578a459a623baf538026edd27422",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/ForestMansion.theme2.json",
+            "path": "journeymap/icon/theme/flat/ForestMansion.theme2.json"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.877d5f667c1ae172",
+          "name": "journeymap/icon/theme/flat/icon/about.png",
+          "type": "File",
+          "artifact": {
+            "size": 651,
+            "MD5": "51dd21a90b121e6ee54629d7aa06bbe0",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/about.png",
+            "path": "journeymap/icon/theme/flat/icon/about.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.6b88749013f5d89d",
+          "name": "journeymap/icon/theme/flat/icon/actions.png",
+          "type": "File",
+          "artifact": {
+            "size": 1371,
+            "MD5": "0ef11997aba83ffb45df8ef8fa5a7aac",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/actions.png",
+            "path": "journeymap/icon/theme/flat/icon/actions.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.4ebe4f65906b30a7",
+          "name": "journeymap/icon/theme/flat/icon/alert.png",
+          "type": "File",
+          "artifact": {
+            "size": 1101,
+            "MD5": "afaa1f1f124c7446ea79d69718e2e9a9",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/alert.png",
+            "path": "journeymap/icon/theme/flat/icon/alert.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.17366a9e094c6fd4",
+          "name": "journeymap/icon/theme/flat/icon/animals.png",
+          "type": "File",
+          "artifact": {
+            "size": 834,
+            "MD5": "05d86dc96f528fd3f644384f82f4b30f",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/animals.png",
+            "path": "journeymap/icon/theme/flat/icon/animals.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.7cbe67a591c52591",
+          "name": "journeymap/icon/theme/flat/icon/automap.png",
+          "type": "File",
+          "artifact": {
+            "size": 591,
+            "MD5": "457dcb561ef49473e6242f8fabf1f0f1",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/automap.png",
+            "path": "journeymap/icon/theme/flat/icon/automap.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.85426992026428d8",
+          "name": "journeymap/icon/theme/flat/icon/biome.png",
+          "type": "File",
+          "artifact": {
+            "size": 1029,
+            "MD5": "c45a1223330ab9056f931ee1df6a5c3c",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/biome.png",
+            "path": "journeymap/icon/theme/flat/icon/biome.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.16e2e683a857c3c2",
+          "name": "journeymap/icon/theme/flat/icon/browser.png",
+          "type": "File",
+          "artifact": {
+            "size": 1694,
+            "MD5": "55898ae51928c26ba420bd3716c64b72",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/browser.png",
+            "path": "journeymap/icon/theme/flat/icon/browser.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.8d73145947119e6a",
+          "name": "journeymap/icon/theme/flat/icon/caves.png",
+          "type": "File",
+          "artifact": {
+            "size": 1081,
+            "MD5": "7da04feb4cefb09e18cc3a095a083558",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/caves.png",
+            "path": "journeymap/icon/theme/flat/icon/caves.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.d0860f73ff22d695",
+          "name": "journeymap/icon/theme/flat/icon/close.png",
+          "type": "File",
+          "artifact": {
+            "size": 1373,
+            "MD5": "e4455f2a047f784231056e104293c161",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/close.png",
+            "path": "journeymap/icon/theme/flat/icon/close.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.30ce1ad8ca953a67",
+          "name": "journeymap/icon/theme/flat/icon/day.png",
+          "type": "File",
+          "artifact": {
+            "size": 1515,
+            "MD5": "4b394cdd9d548238442673032c56fa57",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/day.png",
+            "path": "journeymap/icon/theme/flat/icon/day.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.bfe594d7d480994b",
+          "name": "journeymap/icon/theme/flat/icon/delete.png",
+          "type": "File",
+          "artifact": {
+            "size": 939,
+            "MD5": "629d6824db2898ebc16a00ba14487552",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/delete.png",
+            "path": "journeymap/icon/theme/flat/icon/delete.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.6d4f378c506da580",
+          "name": "journeymap/icon/theme/flat/icon/disable.png",
+          "type": "File",
+          "artifact": {
+            "size": 833,
+            "MD5": "73d4e93e1c708d3f20f3d14e24dfa001",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/disable.png",
+            "path": "journeymap/icon/theme/flat/icon/disable.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.5fd9a7c4aa0eba4f",
+          "name": "journeymap/icon/theme/flat/icon/follow.png",
+          "type": "File",
+          "artifact": {
+            "size": 1274,
+            "MD5": "1af8b8c5d19f250bebc0b8a331a4467d",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/follow.png",
+            "path": "journeymap/icon/theme/flat/icon/follow.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.26f3ca1e18f42ae1",
+          "name": "journeymap/icon/theme/flat/icon/grid.png",
+          "type": "File",
+          "artifact": {
+            "size": 514,
+            "MD5": "630458a6b626ae8c4661392e28327162",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/grid.png",
+            "path": "journeymap/icon/theme/flat/icon/grid.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.4e1b9129c1c526dc",
+          "name": "journeymap/icon/theme/flat/icon/keys.png",
+          "type": "File",
+          "artifact": {
+            "size": 456,
+            "MD5": "48438ebd8464da96a7d0ed12d041cebe",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/keys.png",
+            "path": "journeymap/icon/theme/flat/icon/keys.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.d5eb75615cc9dc58",
+          "name": "journeymap/icon/theme/flat/icon/layers.png",
+          "type": "File",
+          "artifact": {
+            "size": 1339,
+            "MD5": "450ef573defd780e53aed8b422c20188",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/layers.png",
+            "path": "journeymap/icon/theme/flat/icon/layers.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.9f4e7988ecdf338b",
+          "name": "journeymap/icon/theme/flat/icon/monsters.png",
+          "type": "File",
+          "artifact": {
+            "size": 482,
+            "MD5": "161f4b1825fe6aaa7e6c646e1df7c22d",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/monsters.png",
+            "path": "journeymap/icon/theme/flat/icon/monsters.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.7829e4aedfb8dba0",
+          "name": "journeymap/icon/theme/flat/icon/night.png",
+          "type": "File",
+          "artifact": {
+            "size": 1035,
+            "MD5": "2c2e1ae5318cd9d3b566ebad983e641d",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/night.png",
+            "path": "journeymap/icon/theme/flat/icon/night.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.fddeddf33913d5ad",
+          "name": "journeymap/icon/theme/flat/icon/options.png",
+          "type": "File",
+          "artifact": {
+            "size": 644,
+            "MD5": "0b718c3c1ee9ee19d0dadae5f252535b",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/options.png",
+            "path": "journeymap/icon/theme/flat/icon/options.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.381804b7e1883b56",
+          "name": "journeymap/icon/theme/flat/icon/pets.png",
+          "type": "File",
+          "artifact": {
+            "size": 827,
+            "MD5": "ecff0a3a4cb9cc88eec4c65d83639d19",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/pets.png",
+            "path": "journeymap/icon/theme/flat/icon/pets.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.ce59c7f05f829645",
+          "name": "journeymap/icon/theme/flat/icon/players.png",
+          "type": "File",
+          "artifact": {
+            "size": 362,
+            "MD5": "ff8899097b21d8744ed57065cf25a5b2",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/players.png",
+            "path": "journeymap/icon/theme/flat/icon/players.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.53e46f50cc8fa827",
+          "name": "journeymap/icon/theme/flat/icon/reset.png",
+          "type": "File",
+          "artifact": {
+            "size": 659,
+            "MD5": "4027ef0ff444cab320978eb0a2974b7e",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/reset.png",
+            "path": "journeymap/icon/theme/flat/icon/reset.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.33e2370d057d6cef",
+          "name": "journeymap/icon/theme/flat/icon/savemap.png",
+          "type": "File",
+          "artifact": {
+            "size": 926,
+            "MD5": "be5bfbbeab34d292ddcef08f9d7383c8",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/savemap.png",
+            "path": "journeymap/icon/theme/flat/icon/savemap.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.41350887c4a5069a",
+          "name": "journeymap/icon/theme/flat/icon/search.png",
+          "type": "File",
+          "artifact": {
+            "size": 1168,
+            "MD5": "b30e5d3527eb483b344d47b11597b7df",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/search.png",
+            "path": "journeymap/icon/theme/flat/icon/search.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.a100a07827de2d74",
+          "name": "journeymap/icon/theme/flat/icon/server.png",
+          "type": "File",
+          "artifact": {
+            "size": 3038,
+            "MD5": "b934f10174be355e0414ccea904b019b",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/server.png",
+            "path": "journeymap/icon/theme/flat/icon/server.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.a169f3b324f9b215",
+          "name": "journeymap/icon/theme/flat/icon/theme.png",
+          "type": "File",
+          "artifact": {
+            "size": 1151,
+            "MD5": "4a4cbd1cba4e8606cbb7a8260fe3a2b2",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/theme.png",
+            "path": "journeymap/icon/theme/flat/icon/theme.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.4d58d1d8bace4f35",
+          "name": "journeymap/icon/theme/flat/icon/topo.png",
+          "type": "File",
+          "artifact": {
+            "size": 1330,
+            "MD5": "ed12bd7bd28debaaf75d1af3a910a1c6",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/topo.png",
+            "path": "journeymap/icon/theme/flat/icon/topo.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.401f725a5101e561",
+          "name": "journeymap/icon/theme/flat/icon/villagers.png",
+          "type": "File",
+          "artifact": {
+            "size": 393,
+            "MD5": "1d49a9009bbfee78f7e773a9d352d3a2",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/villagers.png",
+            "path": "journeymap/icon/theme/flat/icon/villagers.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.da335ca7a2c23609",
+          "name": "journeymap/icon/theme/flat/icon/waypoints.png",
+          "type": "File",
+          "artifact": {
+            "size": 1606,
+            "MD5": "c7faaffc9c1ce8316f91bb934b19b5c7",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/waypoints.png",
+            "path": "journeymap/icon/theme/flat/icon/waypoints.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.202feb208696e850",
+          "name": "journeymap/icon/theme/flat/icon/zoomin.png",
+          "type": "File",
+          "artifact": {
+            "size": 1305,
+            "MD5": "76e924ab75bab01b92d4c7bb97ac2625",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/zoomin.png",
+            "path": "journeymap/icon/theme/flat/icon/zoomin.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.19f229b14e6cdf9f",
+          "name": "journeymap/icon/theme/flat/icon/zoomout.png",
+          "type": "File",
+          "artifact": {
+            "size": 1241,
+            "MD5": "d2e04e295c2f35c1f1c6801dc59dc440",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/icon/zoomout.png",
+            "path": "journeymap/icon/theme/flat/icon/zoomout.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.a791643d02a7b1c4",
+          "name": "journeymap/icon/theme/flat/minimap/circle/flat_compass_point.png",
+          "type": "File",
+          "artifact": {
+            "size": 589,
+            "MD5": "cba29650354980f136db82cc52d55d89",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/circle/flat_compass_point.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/flat_compass_point.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.c68fb817d21e0e44",
+          "name": "journeymap/icon/theme/flat/minimap/circle/flat_mask_256.png",
+          "type": "File",
+          "artifact": {
+            "size": 7020,
+            "MD5": "4e3e20c86f375ae6d1b53f448835fdb8",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/circle/flat_mask_256.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/flat_mask_256.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.a074b53badcea947",
+          "name": "journeymap/icon/theme/flat/minimap/circle/flat_mask_512.png",
+          "type": "File",
+          "artifact": {
+            "size": 20438,
+            "MD5": "1e908326f7bddbb59634164c52b39265",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/circle/flat_mask_512.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/flat_mask_512.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.81b810f739deb3b9",
+          "name": "journeymap/icon/theme/flat/minimap/circle/flat_rim_256.png",
+          "type": "File",
+          "artifact": {
+            "size": 6751,
+            "MD5": "253e38c2aca245171819adc83e5d6950",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/circle/flat_rim_256.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/flat_rim_256.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.c3f80414ee062c44",
+          "name": "journeymap/icon/theme/flat/minimap/circle/flat_rim_512.png",
+          "type": "File",
+          "artifact": {
+            "size": 14309,
+            "MD5": "edc555a83f714efa5c12d03865112628",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/circle/flat_rim_512.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/flat_rim_512.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.fdcfc4dda1d64769",
+          "name": "journeymap/icon/theme/flat/minimap/circle/pur_compass_point.png",
+          "type": "File",
+          "artifact": {
+            "size": 959,
+            "MD5": "b93f935ef1173b4ba48bd95133568b56",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/circle/pur_compass_point.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/pur_compass_point.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.d3df81be7962d490",
+          "name": "journeymap/icon/theme/flat/minimap/circle/pur_mask_256.png",
+          "type": "File",
+          "artifact": {
+            "size": 2067,
+            "MD5": "9e3dd563a09eca2e7ce680aa0218d0e3",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/circle/pur_mask_256.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/pur_mask_256.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.b259c428f7415519",
+          "name": "journeymap/icon/theme/flat/minimap/circle/pur_mask_512.png",
+          "type": "File",
+          "artifact": {
+            "size": 10622,
+            "MD5": "2135a5f65419ee3fcd0d63a722ec0cfd",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/circle/pur_mask_512.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/pur_mask_512.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.f01aed17315fa870",
+          "name": "journeymap/icon/theme/flat/minimap/circle/pur_rim_256.png",
+          "type": "File",
+          "artifact": {
+            "size": 15210,
+            "MD5": "8c28162acd291452f96b8962706545bb",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/circle/pur_rim_256.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/pur_rim_256.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.97ccdec168096096",
+          "name": "journeymap/icon/theme/flat/minimap/circle/pur_rim_512.png",
+          "type": "File",
+          "artifact": {
+            "size": 37803,
+            "MD5": "6c67ecd99a7cbc14838c437f3059d245",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/circle/pur_rim_512.png",
+            "path": "journeymap/icon/theme/flat/minimap/circle/pur_rim_512.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.06ea95526e4fbf54",
+          "name": "journeymap/icon/theme/flat/minimap/square/flat_bottom.png",
+          "type": "File",
+          "artifact": {
+            "size": 154,
+            "MD5": "0dec683433cc1ed29578edbe447e0416",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/square/flat_bottom.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_bottom.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.f9fe1582f51afc4b",
+          "name": "journeymap/icon/theme/flat/minimap/square/flat_bottomleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 159,
+            "MD5": "e0ef36459a92962091b3c2297ebd492b",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/square/flat_bottomleft.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_bottomleft.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.a5e9c336798bcc2c",
+          "name": "journeymap/icon/theme/flat/minimap/square/flat_bottomright.png",
+          "type": "File",
+          "artifact": {
+            "size": 162,
+            "MD5": "257056afd41430be6c6e017adbbec83b",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/square/flat_bottomright.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_bottomright.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.65a153d0bc5461ae",
+          "name": "journeymap/icon/theme/flat/minimap/square/flat_compass_point.png",
+          "type": "File",
+          "artifact": {
+            "size": 199,
+            "MD5": "3e111929da1913b53355991ba69fdb9a",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/square/flat_compass_point.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_compass_point.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.529a8651bed31706",
+          "name": "journeymap/icon/theme/flat/minimap/square/flat_left.png",
+          "type": "File",
+          "artifact": {
+            "size": 152,
+            "MD5": "4784fe7e5dcf7cc3629399b67b1626c3",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/square/flat_left.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_left.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.556040b54e5f300f",
+          "name": "journeymap/icon/theme/flat/minimap/square/flat_right.png",
+          "type": "File",
+          "artifact": {
+            "size": 153,
+            "MD5": "f24bb1839602c9c4b507f36f03755f15",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/square/flat_right.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_right.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.4aa2933d17a91bc6",
+          "name": "journeymap/icon/theme/flat/minimap/square/flat_top.png",
+          "type": "File",
+          "artifact": {
+            "size": 154,
+            "MD5": "5d32ccf7b5cf96c557976d18f7b9f807",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/square/flat_top.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_top.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.18f450e63b7085ed",
+          "name": "journeymap/icon/theme/flat/minimap/square/flat_topleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 157,
+            "MD5": "89dac45d101d30c5b68e8053c6882a0d",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/square/flat_topleft.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_topleft.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.9f0a0804c9b3ebb7",
+          "name": "journeymap/icon/theme/flat/minimap/square/flat_topright.png",
+          "type": "File",
+          "artifact": {
+            "size": 157,
+            "MD5": "f8771e145f8364e82ed7ce3ae79e4bda",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/square/flat_topright.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/flat_topright.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.6bb054a1697b18a9",
+          "name": "journeymap/icon/theme/flat/minimap/square/pur_bottom.png",
+          "type": "File",
+          "artifact": {
+            "size": 164,
+            "MD5": "7ebab006d87fcbc1da28990b3f923989",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/square/pur_bottom.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_bottom.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.446ae251d400baf3",
+          "name": "journeymap/icon/theme/flat/minimap/square/pur_bottomleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 207,
+            "MD5": "ef8534a2f05d2c3106f0720e93eddb3f",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/square/pur_bottomleft.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_bottomleft.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.daa800ab4fa361db",
+          "name": "journeymap/icon/theme/flat/minimap/square/pur_bottomright.png",
+          "type": "File",
+          "artifact": {
+            "size": 215,
+            "MD5": "4b7003eba91d737295e1429d66b31156",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/square/pur_bottomright.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_bottomright.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.bf726a1c67563bb1",
+          "name": "journeymap/icon/theme/flat/minimap/square/pur_compass_point.png",
+          "type": "File",
+          "artifact": {
+            "size": 199,
+            "MD5": "3e111929da1913b53355991ba69fdb9a",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/square/pur_compass_point.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_compass_point.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.2fcfcb8cf7f38383",
+          "name": "journeymap/icon/theme/flat/minimap/square/pur_left.png",
+          "type": "File",
+          "artifact": {
+            "size": 160,
+            "MD5": "7c9ed0e45981a75dfe3f713c00c1acfb",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/square/pur_left.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_left.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.4c0e09c023e92b69",
+          "name": "journeymap/icon/theme/flat/minimap/square/pur_right.png",
+          "type": "File",
+          "artifact": {
+            "size": 163,
+            "MD5": "4f353bcd3ffab12b1bd48705732a91dc",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/square/pur_right.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_right.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.6f2fac012d4d0631",
+          "name": "journeymap/icon/theme/flat/minimap/square/pur_top.png",
+          "type": "File",
+          "artifact": {
+            "size": 159,
+            "MD5": "fe079179f72d2be13e42252336db233b",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/square/pur_top.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_top.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.ff49c5ae3ba34921",
+          "name": "journeymap/icon/theme/flat/minimap/square/pur_topleft.png",
+          "type": "File",
+          "artifact": {
+            "size": 205,
+            "MD5": "01e815c33e5bec079337e6cf7739511e",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/square/pur_topleft.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_topleft.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.993abfdf0b78bf3e",
+          "name": "journeymap/icon/theme/flat/minimap/square/pur_topright.png",
+          "type": "File",
+          "artifact": {
+            "size": 226,
+            "MD5": "e800293134c150236f70b7da30bd7169",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/minimap/square/pur_topright.png",
+            "path": "journeymap/icon/theme/flat/minimap/square/pur_topright.png"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.77cf86faab387f07",
+          "name": "journeymap/icon/theme/flat/NetherFortress.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8927,
+            "MD5": "17e698f2232e0839fc2ea8cf0b2bcfd4",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/NetherFortress.theme2.json",
+            "path": "journeymap/icon/theme/flat/NetherFortress.theme2.json"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.2d27020c7c672ac6",
+          "name": "journeymap/icon/theme/flat/OceanMonument.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8926,
+            "MD5": "3320c6ddb02866175d0b13f98e5ab7ff",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/OceanMonument.theme2.json",
+            "path": "journeymap/icon/theme/flat/OceanMonument.theme2.json"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.8995b72ca5d7490e",
+          "name": "journeymap/icon/theme/flat/Purist.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8907,
+            "MD5": "bd7bc4c29dca54bccecf2cdc114a6667",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/Purist.theme2.json",
+            "path": "journeymap/icon/theme/flat/Purist.theme2.json"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.5340bb8c8f8823e1",
+          "name": "journeymap/icon/theme/flat/Stronghold.theme2.json",
+          "type": "File",
+          "artifact": {
+            "size": 8923,
+            "MD5": "875fcfd96f8371c6e3a0fcd7fca994df",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/flat/Stronghold.theme2.json",
+            "path": "journeymap/icon/theme/flat/Stronghold.theme2.json"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.edc81a17eb9eeb98",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5350,
+            "MD5": "6de879e767848d34fe161052f8e612dd",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.b819a7ecd78cc7ae",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 69,
+            "MD5": "1252b7dbc7380a6153bfdcd1aa1b7a14",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/servers.dat",
+            "path": "servers.dat"
+          }
+        },
+        {
+          "id": "heliosvanilla.file.7129e6c1fb469b4e",
+          "name": "shaderpacks/BSL_v10.1.3.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1127026,
+            "MD5": "324f09c3d1c736576a09782ff75c2f68",
+            "url": "https://raw.githubusercontent.com/imtaeyang/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/shaderpacks/BSL_v10.1.3.zip",
+            "path": "shaderpacks/BSL_v10.1.3.zip"
+          }
+        }
+      ]
+    }
+  ]
+}

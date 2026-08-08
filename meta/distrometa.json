@@ -1,0 +1,4 @@
+{
+  "$schema": "../schemas/DistroMetaSchema.schema.json",
+  "meta": {}
+}
