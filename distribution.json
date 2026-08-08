@@ -1,12 +1,12 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "servers": [
     {
       "id": "HeliosVanilla-1.20.4",
       "name": "KKMK 서버",
       "description": "Minecraft 1.20.4 · Fabric 0.19.3 · 클라이언트 자동 설치",
       "icon": "https://raw.githubusercontent.com/taeyang6658/HeliosVanilla-distro/main/serverIMG.png",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "address": "kkmk.kro.kr",
       "minecraftVersion": "1.20.4",
       "mainServer": true,
@@ -614,7 +614,6 @@
           "type": "File",
           "artifact": {
             "size": 4503,
-            "MD5": "216a02fa4f41dab9096eaabc9eb1eecc",
             "url": "https://raw.githubusercontent.com/taeyang6658/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/colorpalette.html",
             "path": "journeymap/colorpalette.html"
           }
@@ -625,7 +624,6 @@
           "type": "File",
           "artifact": {
             "size": 199883,
-            "MD5": "95c255b3eae036ac57c076c43da1ebbb",
             "url": "https://raw.githubusercontent.com/taeyang6658/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/colorpalette.json",
             "path": "journeymap/colorpalette.json"
           }
@@ -636,7 +634,6 @@
           "type": "File",
           "artifact": {
             "size": 1871,
-            "MD5": "494bdf4ab8e9523a9a5268f241fb9ce0",
             "url": "https://raw.githubusercontent.com/taeyang6658/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/config/5.10/journeymap.core.config",
             "path": "journeymap/config/5.10/journeymap.core.config"
           }
@@ -647,7 +644,6 @@
           "type": "File",
           "artifact": {
             "size": 869,
-            "MD5": "dfd00e2405b4bc4ad77d94faffb49134",
             "url": "https://raw.githubusercontent.com/taeyang6658/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/config/5.10/journeymap.fullmap.config",
             "path": "journeymap/config/5.10/journeymap.fullmap.config"
           }
@@ -658,7 +654,6 @@
           "type": "File",
           "artifact": {
             "size": 1664,
-            "MD5": "43496284aed0449569d864cf402fa189",
             "url": "https://raw.githubusercontent.com/taeyang6658/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/config/5.10/journeymap.minimap.config",
             "path": "journeymap/config/5.10/journeymap.minimap.config"
           }
@@ -669,7 +664,6 @@
           "type": "File",
           "artifact": {
             "size": 1664,
-            "MD5": "a55b3b5e19cd1a19a4ef4979ddde3086",
             "url": "https://raw.githubusercontent.com/taeyang6658/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/config/5.10/journeymap.minimap2.config",
             "path": "journeymap/config/5.10/journeymap.minimap2.config"
           }
@@ -680,7 +674,6 @@
           "type": "File",
           "artifact": {
             "size": 964,
-            "MD5": "d6fd0b74c996f515f3645d68fed8e5df",
             "url": "https://raw.githubusercontent.com/taeyang6658/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/config/5.10/journeymap.topo.config",
             "path": "journeymap/config/5.10/journeymap.topo.config"
           }
@@ -691,7 +684,6 @@
           "type": "File",
           "artifact": {
             "size": 896,
-            "MD5": "80440c4ed85631e9fbb8c855c93fb70c",
             "url": "https://raw.githubusercontent.com/taeyang6658/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/config/5.10/journeymap.waypoint.config",
             "path": "journeymap/config/5.10/journeymap.waypoint.config"
           }
@@ -702,7 +694,6 @@
           "type": "File",
           "artifact": {
             "size": 155,
-            "MD5": "2b15c0a6e6adfb00ef20f66d77727698",
             "url": "https://raw.githubusercontent.com/taeyang6658/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/config/5.10/journeymap.webmap.config",
             "path": "journeymap/config/5.10/journeymap.webmap.config"
           }
@@ -713,7 +704,6 @@
           "type": "File",
           "artifact": {
             "size": 83,
-            "MD5": "9a651dda4758f8a349cc4017f2d60da6",
             "url": "https://raw.githubusercontent.com/taeyang6658/HeliosVanilla-distro/main/servers/HeliosVanilla-1.20.4/files/journeymap/icon/theme/default.theme.config",
             "path": "journeymap/icon/theme/default.theme.config"
           }
